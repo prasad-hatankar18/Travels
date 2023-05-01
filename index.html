@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRIP TRAVEL</title>
+	
+
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="popper.js"></script>
+	<script type="text/javascript" src="bootstrap.js"></script>	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity=
+    <link rel="stylesheet" type="text/css" href="Master.css">
+		
+		<style type='text/css'>
+		
+		.carousel-inner img{
+		width:100%;
+		height:460px;
+		
+		}
+		
+		#zoom{
+		height:220px;
+		width:350px;
+		}
+		
+		#zoom:hover{
+ 			-webkit-transform: scaleX(-1);
+  			transform: scaleX(-1);
+ 		}	
+
+ 		#link:hover{
+ 			font-size: 25px;
+ 		}
+		
+		.l1:hover{
+			color:black;
+			
+			
+		}
+		
+		
+		nav{
+		background:#117A65;
+		}
+		
+		nav a{
+		color:#CACCCF !important;
+		font-weight:bold;
+		}
+		
+		nav li a:hover{
+		color:white !important;
+		font-weight:bold;
+		transform:scale(1.1);
+		}
+		
+
+		
+		
+		.search{
+		width:200px;
+		height:50px;
+		font-weight:bold;
+		text-transform:uppercase;
+		border-radius:10px;
+		}
+		
+
+		
+		nav .img1{
+			height:50px;
+		}
+		
+		@media (min-width:1200px){
+		
+		.search{
+			margin-left:50px;
+			
+		}
+		
+		
+		}
+		
+		@media (min-width:992px)and (max-width:1200px){
+		
+		nav .img1{
+			height:35px;
+			margin-left:-40px;
+		}
+		
+		
+		nav #collapsibleNavbar{
+			margin-left:-50px;
+		}
+		
+		.search{
+			margin-left:10px;
+			width:170px;
+			
+		}
+		
+		}
+		
+		
+		@media (min-width:768px)and (max-width:992px){
+	
+		.navbar-toggler{
+		position:absolute;
+		right:25px;
+		top:20px;
+		}
+		
+		}
+		
+		
+		
+		@media (min-width:576px)and (max-width:768px){
+	
+		.navbar-toggler{
+		position:absolute;
+		right:25px;
+		top:20px;
+		}
+		
+		
+		}
+		
+		
+		@media (min-width:0px)and (max-width:768px){
+	
+		.navbar-toggler{
+		position:absolute;
+		right:25px;
+		top:12px;
+		}
+
+		nav .img1{
+			height: 40px;
+		}
+		
+		}
+		
+		
+		
+		</style>
+		
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light sticky-top px-5">
+	  <div class="container-fluid ">
+		<a class="navbar-brand" href="#"><img src='img1/logo1bg.png' class="img1" /> </a>
+		
+		<button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#collapsibleNavbar'>
+				<span class='navbar-toggler-icon'></span>
+			
+		</button>
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			  <ul class="navbar-nav me-auto mb-2 mb-lg-0" style='margin-left:50px;'>
+			  
+				<li class='nav-item active' style="border-bottom: 3px solid white; font-size: 17px;"><a class='nav-link l1' href='index.html' style='width:110px; text-align:center;'>HOME</a></li>
+				<li class='nav-item'><a class='nav-link  l1' href='Destination.html' style='width:160px; text-align:center;'>DESTINATIONS</a></li>
+				<li class='nav-item'><a class='nav-link  l1' href='Specialtour.html' style='width:160px; text-align:center;'>SPECIALITY TOUR</a></li>
+				<li class='nav-item'><a class='nav-link  l1 '  href='Travel.html' style='width:110px; text-align:center;'>TRAVLES</a></li>
+				<li class='nav-item'><a class='nav-link l1' href='Contact.html' style='width:110px; text-align:center;'>CONTACT</a></li>
+				<li class='nav-item'><button class="btn bg-light search" type="submit">REGISTER NOW</button></li>
+			  </ul>
+
+				
+			</div>
+			
+		</div>
+	</nav>
+	
+	
+	<section >
+	
+		<div class='container mt-1' >
+		<div id='demo' class='carousel slide' data-ride='carousel'>
+			
+			<!-- Indicators -->
+			<ul class='carousel-indicators'>
+				<li data-target='#demo' data-slide-to='0' class='active'></li>
+				<li data-target='#demo' data-slide-to='1'></li>
+				<li data-target='#demo' data-slide-to='2'></li>
+			</ul>
+			<!-- THE SLIDEsHOW -->
+			
+			<div class='carousel-inner'>
+				
+				<div class='carousel-item active'>
+					<a href='index.html#indexSection2'><img src='img1/ban2.jpg' alt='Advanture Travel' width='1100' height='460'></a>
+					<div class='carousel-caption'>
+						<h1><a href='index.html#indexSection2' style='color:white;'>Adventure Travel</a></h1>
+					</div>
+					
+				</div>
+				
+				<div class='carousel-item'>
+					<a href='Specialtour.html#SpecialtourSection2'><img src='img1/dubai.webp' alt='International' width='1100' height='460'></a>
+					<div class='carousel-caption'>
+						<h1><a href='Specialtour.html' style='color:white;'>International Tours</a></h1>
+					</div>
+					
+				</div>
+				
+				<div class='carousel-item'>
+					<a href='Destination.html#DestinationSection1'><img src='img1/ban1.webp' alt='Destination' width='1100' height='460'></a>
+					<div class='carousel-caption'>
+						<h1><a href='Destination.html' style='color:white;'>Indian LifeStyle</a></h1>
+					</div>
+					
+				</div>
+			</div>
+			
+			<!-- Left- and right control1 -->
+			<a class='carousel-control-prev' href='#demo' data-slide='prev'>
+				<span class='carousel-control-prev-icon'></span>
+			</a> 
+			
+			<a class='carousel-control-next' href='#demo' data-slide='next'>
+				<span class='carousel-control-next-icon'></span>
+			</a> 
+		</div><br><br>
+		
+		<div class='conatiner'>
+			<div class='row'>
+				<div class='col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12'>
+					<h1 style='text-align:center;'>- About -</h1>
+				</div><br>
+				<div class='col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12' >
+					<p style='font-size: 20px; line-height: 28px;text-align: justify;'>“Travel is the main thing you purchase that makes you more extravagant”. We, at ‘Organization Name’, swear by this and put stock in satisfying travel dreams that make you perpetually rich constantly.
+					<br><br>
+					We have been moving excellent encounters for a considerable length of time through our cutting-edge planned occasion bundles and other fundamental travel administrations. We rouse our clients to carry on with a rich life, brimming with extraordinary travel encounters.
+					<br><br>
+					We offer the best limits on our top-rated visit bundles to clients who pick our viable administrations over and over. How about we remind you indeed that we don’t expect to be your visit and travel specialists; we endeavor to be your vacation accomplices until the end of time.
+					Through our exceptionally curated occasion bundles, we need to take you on an adventure where you personally enjoy the stunning magnificence of America and far-off terrains. We need you to observe sensational scenes that are a long way past your creative ability.
+
+</p>
+				</div>
+
+			</div>
+
+		</div>
+		
+		<div class='container'>	
+			<br><hr><br>
+			
+			<div class='row' id='indexSection2'>
+				<div class='col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4'>
+					<a href='Destination.html#DestinationSection1' style='color: #77b300;' ><img id='zoom' src='img1/indiant.jpeg' class='img-thumbnail img-fluid mx-auto d-block' ><h4 id='link' style='text-align:center; color:#77b300;'>Pick a Plan for Indian Tour</h4></a>
+				</div>
+				
+				<div class='col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4'>
+					<a href='Specialtour.html#SpecialtourSection1' style='color:#77b300;'><img id='zoom' src='img1/inter.webp' class='img-thumbnail img-fluid mx-auto d-block'><h4 id='link' style='text-align:center; color:#77b300;'> Plan for International Tour</h4></a>
+				</div>
+				
+				<div class='col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4'>
+					<a href='Travel.html#TravelSection1' style='color: #77b300;' ><img id='zoom' src='img1/pass.jpeg' class='img-thumbnail img-fluid mx-auto d-block' ><h4 id='link' style='text-align:center; color:#77b300;'>Ways Of Travelling</h4></a>
+				</div>
+				
+
+				
+			</div>	
+			
+			<div class='row'>
+				<div class='col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4'>
+					<a href='Destination.html#DestinationSection2' style='color:#77b300;'><img id='zoom' src='img1/top.webp' class='img-thumbnail img-fluid mx-auto d-block'><h4 id='link' style='text-align:center; color:#77b300;'>
+					List of Top 10's Tour Places
+					</h4></a>
+				</div>
+				
+				<div class='col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4'>
+					<a href='index.html#demo' style='color:#77b300;'><img id='zoom' src='img1/advan.avif' class='img-thumbnail img-fluid mx-auto d-block'><h4 id='link' style='text-align:center; color:#77b300;'>Adventure Tourism</h4></a>
+				</div>
+				
+				<div class='col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4'>
+					<a href='#' style='color:#77b300;'><img id='zoom' src='img1/group.jpg' class='img-thumbnail img-fluid mx-auto d-block'><h4 id='link' style='text-align:center; color:#77b300;'>Perfect Group Tour Package</h4></a>
+				</div>
+
+				
+			</div>
+		</div><hr><br>
+
+			<div class='row'>
+				<div class='col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12'>
+					<h4 style='text-align:center'><b> “A good traveler has no fixed plans, and is not intent on arriving.” – Lao Tzu </b></h4>
+				</div><br><br><br>
+			</div>
+			
+		</div>		
+	</section>
+	
+	
+</body>
+</html>
